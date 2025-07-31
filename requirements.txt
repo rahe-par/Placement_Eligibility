@@ -1,0 +1,4 @@
+Faker
+streamlit
+pandas
+sqlite3
