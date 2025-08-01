@@ -17,13 +17,6 @@ class SimpleDataExporter:
                 df.to_csv(f"{output_folder}/{table}.csv", index=False)
                 print(f"Exported {table}.csv")
         
-        print("\nValidation:")
-        for table in self.tables:
-            file_path = f"{output_folder}/{table}.csv"
-            if os.path.exists(file_path):
-                print(f"✓ {file_path} exists")
-            else:
-                print(f"✗ {file_path} missing")
 
 if __name__ == "__main__":
     exporter = SimpleDataExporter()
