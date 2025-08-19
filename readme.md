@@ -58,3 +58,4 @@ python data_exporter.py
 streamlit run dashboard.py
 
 
+This project is for educational purposes as part of the GUVI Artificial Intelligence and Machine Learning program.
